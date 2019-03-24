@@ -1,0 +1,41 @@
+.component-article {
+  position: relative;
+  padding: .20rem 0;
+  display: block;
+  border-bottom: 1px solid #eee;
+  .img {
+    position: absolute;
+    top: .20rem;
+    left: 0;
+    width: 2.34rem;
+    height: 1.44rem;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+  }
+  .description {
+    margin-left: 2.54rem;
+    min-height: 1.44rem;
+    .h3 {
+      max-height: .96rem;
+      font-size: .36rem;
+      line-height: .48rem;
+      color: #222;
+      overflow: hidden;
+    }
+    .p {
+      font-size: .24rem;
+      color: #999;
+      line-height: .36rem;
+      height: .36rem;
+      padding-top: .12rem;
+      span {
+        margin-right: .1rem;
+      }
+      em {
+        font-style: normal;
+      }
+    }
+  }
+}

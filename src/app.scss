@@ -1,0 +1,95 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+img {
+  vertical-align: top;
+}
+
+input, textarea {
+  -webkit-appearance: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Hiragino Sans GB', 'Helvetica Neue', Helvetica, STHeiTi, 'Microsoft Yahei', sans-serif;
+  background-color: #fff;
+}
+
+.topbar {
+  height: .80rem;
+  line-height: .80rem;
+  background-color: #ee2230;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  text-align: center;
+  display: none;
+  &.active {
+    display: block;
+  }
+  .home {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: .50rem;
+    transform: translateY(-50%);
+    padding: .15rem 0;
+    img {
+      margin: 0 .2rem;
+      height: .50rem;
+      width: .50rem;
+    }
+  }
+  .result {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: .50rem;
+    padding: .15rem 0;
+    right: 0;
+    img {
+      margin: 0 .2rem;
+      height: .50rem;
+      width: .50rem;
+    }
+  }
+  span {
+    font-size: .36rem;
+    color: #fff;
+    vertical-align: top;
+  }
+}
+
+.router {
+  margin-top: .80rem;
+  .router-container {
+    position: relative;
+  }
+  .detail-container {
+    position: relative;
+    display: none;
+    &.active {
+      display: block;
+    }
+  }
+}

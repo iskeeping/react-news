@@ -1,0 +1,22 @@
+.result-page {
+  .input-box {
+    width: 100%;
+    text-align: center;
+    input {
+      height: .6rem;
+      width: 6.30rem;
+      border-radius: .3rem;
+      border: 1px solid #eee;
+      font-size: .28rem;
+      color: #888;
+      box-sizing: border-box;
+      padding: .12rem .30rem;
+      vertical-align: top;
+      margin: .40rem 0 .20rem;
+      box-shadow: none;
+    }
+  }
+  .list {
+    margin: 0 .2rem;
+  }
+}
